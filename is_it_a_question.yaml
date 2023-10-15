@@ -1,0 +1,11 @@
+_type: prompt
+input_variables:
+    ["message"]
+template:
+  Your task is to understand if the following message is a question or not.
+  Keep in mind that a message does not necessarily contain a question mark.
+  
+  The message(:) {message}
+  
+  Your answer should only be "Question", or "Not question". 
+  Do not add any extra information, except for the given options.
